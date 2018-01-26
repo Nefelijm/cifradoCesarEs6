@@ -6,7 +6,7 @@ $(document).ready(function() {
   let btnCipher = $('#cipher');
   let content = $('#conten');
 	
-  // Funcion para el boton Cifrar
+  // Funcion para el boton decifrar
 
   btnCipher.on('click', () => {
     // Variable para el valor del input

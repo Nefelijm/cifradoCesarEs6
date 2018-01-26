@@ -1,11 +1,51 @@
 *{
 margin: 0;
 padding: 0;
+box-sizing: border-box;
+}
+
+body{
+ width:200px;
+ background-image: url(https://s-media-cache-ak0.pinimg.com/originals/da/fd/e7/dafde70186976b42707a7197a840a033.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-position: cover;
+ height: 100vh;
+}
+
+h1{
+ color: white;
+ font-size: 45px;
+}
+
+#encryption{
+ height: 50px;
+ font-size: 40px;
+}
+
+label{
+margin-top: 5%;
+font-size: 20px;
+color:white;
+}
+
+
+.btn-color{
+ background-color: rgb(230, 84, 133);
+ font-size: 20px;
+ margin-left: 35%;
+ margin-top: 5%;
+ width: 200px;
 }
 
 .cifrado{
-background-color: rgb(233, 188, 219);
-width:550px;
-height:250px;
-margin-top: 10%;
+color: black;
+font-size: 60px;
+width:300px;
+height: 240px;
+margin-top: 5%;
+margin-left: 30%;
+border: 1px solid;
+box-shadow: 8px 8px 8px salmon , 3px 5px 3px rgb(195, 191, 223),8px 8px 8px rgb(195, 58, 188);
+
 }
