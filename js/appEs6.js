@@ -15,7 +15,7 @@ $(document).ready(function() {
       // Variable para almacenar el resultado
       let cipher = '';
       // Recorriendo el valor del input
-      for (let i = 0; i < valueInput.length; i++) {
+      for (var i = 0; i < valueInput.length; i++) {
         let toAscci = valueInput.charCodeAt(i);
         let toAscci2 = valueInput[i];
         if ((toAscci >= 65) && (toAscci <= 90)) {
@@ -42,7 +42,7 @@ $(document).ready(function() {
       // Variable para almacenar el resultado
       let decipher = '';
       // Recorriendo el valor del input
-      for (let i = 0; i < valueInput.length; i++) {
+      for (var i = 0; i < valueInput.length; i++) {
         let toAscci = valueInput.charCodeAt(i);
         let toAscci2 = valueInput[i];
         if ((toAscci >= 65) && (toAscci <= 90)) {
