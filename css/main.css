@@ -1,0 +1,11 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.cifrado{
+background-color: rgb(233, 188, 219);
+width:550px;
+height:250px;
+margin-top: 10%;
+}
